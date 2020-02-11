@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */; };
+		E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AF23F3217000C040D2 /* ViewController.swift */; };
+		E6C3A2B323F3217000C040D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B123F3217000C040D2 /* Main.storyboard */; };
+		E6C3A2B523F3217100C040D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B423F3217100C040D2 /* Assets.xcassets */; };
+		E6C3A2B823F3217100C040D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B623F3217100C040D2 /* LaunchScreen.storyboard */; };
+		E6C3A2C323F3217100C040D2 /* polTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2C223F3217100C040D2 /* polTalkTests.swift */; };
+		E6C3A2CE23F3217100C040D2 /* polTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2CD23F3217100C040D2 /* polTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6C3A2BF23F3217100C040D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C3A2A923F3217000C040D2;
+			remoteInfo = polTalk;
+		};
+		E6C3A2CA23F3217100C040D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C3A2A923F3217000C040D2;
+			remoteInfo = polTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6C3A2AA23F3217000C040D2 /* polTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6C3A2AF23F3217000C040D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6C3A2B223F3217000C040D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6C3A2B423F3217100C040D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6C3A2B723F3217100C040D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6C3A2B923F3217100C040D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C3A2BE23F3217100C040D2 /* polTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C3A2C223F3217100C040D2 /* polTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polTalkTests.swift; sourceTree = "<group>"; };
+		E6C3A2C423F3217100C040D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C3A2C923F3217100C040D2 /* polTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C3A2CD23F3217100C040D2 /* polTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polTalkUITests.swift; sourceTree = "<group>"; };
+		E6C3A2CF23F3217100C040D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6C3A2A723F3217000C040D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2BB23F3217100C040D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2C623F3217100C040D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6C3A2A123F3217000C040D2 = {
+			isa = PBXGroup;
+			children = (
+				E6C3A2AC23F3217000C040D2 /* polTalk */,
+				E6C3A2C123F3217100C040D2 /* polTalkTests */,
+				E6C3A2CC23F3217100C040D2 /* polTalkUITests */,
+				E6C3A2AB23F3217000C040D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6C3A2AB23F3217000C040D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3A2AA23F3217000C040D2 /* polTalk.app */,
+				E6C3A2BE23F3217100C040D2 /* polTalkTests.xctest */,
+				E6C3A2C923F3217100C040D2 /* polTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6C3A2AC23F3217000C040D2 /* polTalk */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */,
+				E6C3A2AF23F3217000C040D2 /* ViewController.swift */,
+				E6C3A2B123F3217000C040D2 /* Main.storyboard */,
+				E6C3A2B423F3217100C040D2 /* Assets.xcassets */,
+				E6C3A2B623F3217100C040D2 /* LaunchScreen.storyboard */,
+				E6C3A2B923F3217100C040D2 /* Info.plist */,
+			);
+			path = polTalk;
+			sourceTree = "<group>";
+		};
+		E6C3A2C123F3217100C040D2 /* polTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3A2C223F3217100C040D2 /* polTalkTests.swift */,
+				E6C3A2C423F3217100C040D2 /* Info.plist */,
+			);
+			path = polTalkTests;
+			sourceTree = "<group>";
+		};
+		E6C3A2CC23F3217100C040D2 /* polTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3A2CD23F3217100C040D2 /* polTalkUITests.swift */,
+				E6C3A2CF23F3217100C040D2 /* Info.plist */,
+			);
+			path = polTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6C3A2A923F3217000C040D2 /* polTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C3A2D223F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalk" */;
+			buildPhases = (
+				E6C3A2A623F3217000C040D2 /* Sources */,
+				E6C3A2A723F3217000C040D2 /* Frameworks */,
+				E6C3A2A823F3217000C040D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polTalk;
+			productName = polTalk;
+			productReference = E6C3A2AA23F3217000C040D2 /* polTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6C3A2BD23F3217100C040D2 /* polTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C3A2D523F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalkTests" */;
+			buildPhases = (
+				E6C3A2BA23F3217100C040D2 /* Sources */,
+				E6C3A2BB23F3217100C040D2 /* Frameworks */,
+				E6C3A2BC23F3217100C040D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C3A2C023F3217100C040D2 /* PBXTargetDependency */,
+			);
+			name = polTalkTests;
+			productName = polTalkTests;
+			productReference = E6C3A2BE23F3217100C040D2 /* polTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6C3A2C823F3217100C040D2 /* polTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C3A2D823F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalkUITests" */;
+			buildPhases = (
+				E6C3A2C523F3217100C040D2 /* Sources */,
+				E6C3A2C623F3217100C040D2 /* Frameworks */,
+				E6C3A2C723F3217100C040D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C3A2CB23F3217100C040D2 /* PBXTargetDependency */,
+			);
+			name = polTalkUITests;
+			productName = polTalkUITests;
+			productReference = E6C3A2C923F3217100C040D2 /* polTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6C3A2A223F3217000C040D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Xor;
+				TargetAttributes = {
+					E6C3A2A923F3217000C040D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E6C3A2BD23F3217100C040D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E6C3A2A923F3217000C040D2;
+					};
+					E6C3A2C823F3217100C040D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E6C3A2A923F3217000C040D2;
+					};
+				};
+			};
+			buildConfigurationList = E6C3A2A523F3217000C040D2 /* Build configuration list for PBXProject "polTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6C3A2A123F3217000C040D2;
+			productRefGroup = E6C3A2AB23F3217000C040D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6C3A2A923F3217000C040D2 /* polTalk */,
+				E6C3A2BD23F3217100C040D2 /* polTalkTests */,
+				E6C3A2C823F3217100C040D2 /* polTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6C3A2A823F3217000C040D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C3A2B823F3217100C040D2 /* LaunchScreen.storyboard in Resources */,
+				E6C3A2B523F3217100C040D2 /* Assets.xcassets in Resources */,
+				E6C3A2B323F3217000C040D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2BC23F3217100C040D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2C723F3217100C040D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6C3A2A623F3217000C040D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */,
+				E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2BA23F3217100C040D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C3A2C323F3217100C040D2 /* polTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C3A2C523F3217100C040D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C3A2CE23F3217100C040D2 /* polTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6C3A2C023F3217100C040D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6C3A2A923F3217000C040D2 /* polTalk */;
+			targetProxy = E6C3A2BF23F3217100C040D2 /* PBXContainerItemProxy */;
+		};
+		E6C3A2CB23F3217100C040D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6C3A2A923F3217000C040D2 /* polTalk */;
+			targetProxy = E6C3A2CA23F3217100C040D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6C3A2B123F3217000C040D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6C3A2B223F3217000C040D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6C3A2B623F3217100C040D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6C3A2B723F3217100C040D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6C3A2D023F3217100C040D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6C3A2D123F3217100C040D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6C3A2D323F3217100C040D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6C3A2D423F3217100C040D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6C3A2D623F3217100C040D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polTalk.app/polTalk";
+			};
+			name = Debug;
+		};
+		E6C3A2D723F3217100C040D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polTalk.app/polTalk";
+			};
+			name = Release;
+		};
+		E6C3A2D923F3217100C040D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = polTalk;
+			};
+			name = Debug;
+		};
+		E6C3A2DA23F3217100C040D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = polTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = polTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6C3A2A523F3217000C040D2 /* Build configuration list for PBXProject "polTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C3A2D023F3217100C040D2 /* Debug */,
+				E6C3A2D123F3217100C040D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C3A2D223F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C3A2D323F3217100C040D2 /* Debug */,
+				E6C3A2D423F3217100C040D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C3A2D523F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C3A2D623F3217100C040D2 /* Debug */,
+				E6C3A2D723F3217100C040D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C3A2D823F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C3A2D923F3217100C040D2 /* Debug */,
+				E6C3A2DA23F3217100C040D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6C3A2A223F3217000C040D2 /* Project object */;
+}
