@@ -9,12 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    @IBOutlet var titleLabel: UILabel!
+    
+    @IBAction func showMenu(_ sender: UIButton){
         
-        
-        }
+    }
 
 
 }
