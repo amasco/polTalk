@@ -2,6 +2,8 @@
 //  Voter.swift
 //  polTalk
 //
+//  Voter class object
+//
 //  Created by Adrian Mascorro on 2/12/20.
 //  Copyright © 2020 Xor. All rights reserved.
 //

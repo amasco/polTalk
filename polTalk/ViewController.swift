@@ -10,12 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var titleLabel: UILabel!
-    
-    @IBAction func showMenu(_ sender: UIButton){
-        
-    }
-
 
 }
 

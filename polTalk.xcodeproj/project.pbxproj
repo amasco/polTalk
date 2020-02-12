@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E65286F223F34F8F000EA112 /* AppIcon.appiconset */; };
-		E652870223F37CAF000EA112 /* libsqlite3_dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */; };
-		E652870923F37CAF000EA112 /* libsqlite3_dylibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652870823F37CAF000EA112 /* libsqlite3_dylibTests.swift */; };
-		E652870B23F37CAF000EA112 /* libsqlite3_dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = E65286FB23F37CAF000EA112 /* libsqlite3_dylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E652870E23F37CAF000EA112 /* libsqlite3_dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */; };
-		E652870F23F37CAF000EA112 /* libsqlite3_dylib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E652871A23F4936C000EA112 /* Voter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871923F4936C000EA112 /* Voter.swift */; };
 		E652871E23F49AFD000EA112 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871D23F49AFD000EA112 /* DB.swift */; };
 		E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */; };
@@ -26,27 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E652870323F37CAF000EA112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E65286F823F37CAF000EA112;
-			remoteInfo = libsqlite3.dylib;
-		};
-		E652870523F37CAF000EA112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6C3A2A923F3217000C040D2;
-			remoteInfo = polTalk;
-		};
-		E652870C23F37CAF000EA112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E65286F823F37CAF000EA112;
-			remoteInfo = libsqlite3.dylib;
-		};
 		E6C3A2BF23F3217100C040D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
@@ -63,28 +37,8 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E652871323F37CAF000EA112 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E652870F23F37CAF000EA112 /* libsqlite3_dylib.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		E65286F223F34F8F000EA112 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/ios/AppIcon.appiconset; sourceTree = "<group>"; };
-		E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libsqlite3_dylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E65286FB23F37CAF000EA112 /* libsqlite3_dylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libsqlite3_dylib.h; sourceTree = "<group>"; };
-		E65286FC23F37CAF000EA112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E652870123F37CAF000EA112 /* libsqlite3.dylibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libsqlite3.dylibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E652870823F37CAF000EA112 /* libsqlite3_dylibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libsqlite3_dylibTests.swift; sourceTree = "<group>"; };
-		E652870A23F37CAF000EA112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E652871923F4936C000EA112 /* Voter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voter.swift; sourceTree = "<group>"; };
 		E652871D23F49AFD000EA112 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		E6C3A2AA23F3217000C040D2 /* polTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,26 +58,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E65286F623F37CAF000EA112 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E65286FE23F37CAF000EA112 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E652870223F37CAF000EA112 /* libsqlite3_dylib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6C3A2A723F3217000C040D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E652870E23F37CAF000EA112 /* libsqlite3_dylib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,32 +82,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E65286FA23F37CAF000EA112 /* libsqlite3.dylib */ = {
-			isa = PBXGroup;
-			children = (
-				E65286FB23F37CAF000EA112 /* libsqlite3_dylib.h */,
-				E65286FC23F37CAF000EA112 /* Info.plist */,
-			);
-			path = libsqlite3.dylib;
-			sourceTree = "<group>";
-		};
-		E652870723F37CAF000EA112 /* libsqlite3.dylibTests */ = {
-			isa = PBXGroup;
-			children = (
-				E652870823F37CAF000EA112 /* libsqlite3_dylibTests.swift */,
-				E652870A23F37CAF000EA112 /* Info.plist */,
-			);
-			path = libsqlite3.dylibTests;
-			sourceTree = "<group>";
-		};
 		E6C3A2A123F3217000C040D2 = {
 			isa = PBXGroup;
 			children = (
 				E6C3A2AC23F3217000C040D2 /* polTalk */,
 				E6C3A2C123F3217100C040D2 /* polTalkTests */,
 				E6C3A2CC23F3217100C040D2 /* polTalkUITests */,
-				E65286FA23F37CAF000EA112 /* libsqlite3.dylib */,
-				E652870723F37CAF000EA112 /* libsqlite3.dylibTests */,
 				E6C3A2AB23F3217000C040D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,8 +98,6 @@
 				E6C3A2AA23F3217000C040D2 /* polTalk.app */,
 				E6C3A2BE23F3217100C040D2 /* polTalkTests.xctest */,
 				E6C3A2C923F3217100C040D2 /* polTalkUITests.xctest */,
-				E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */,
-				E652870123F37CAF000EA112 /* libsqlite3.dylibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,55 +139,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		E65286F423F37CAF000EA112 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E652870B23F37CAF000EA112 /* libsqlite3_dylib.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		E65286F823F37CAF000EA112 /* libsqlite3.dylib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E652871023F37CAF000EA112 /* Build configuration list for PBXNativeTarget "libsqlite3.dylib" */;
-			buildPhases = (
-				E65286F423F37CAF000EA112 /* Headers */,
-				E65286F523F37CAF000EA112 /* Sources */,
-				E65286F623F37CAF000EA112 /* Frameworks */,
-				E65286F723F37CAF000EA112 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libsqlite3.dylib;
-			productName = libsqlite3.dylib;
-			productReference = E65286F923F37CAF000EA112 /* libsqlite3_dylib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E652870023F37CAF000EA112 /* libsqlite3.dylibTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E652871423F37CAF000EA112 /* Build configuration list for PBXNativeTarget "libsqlite3.dylibTests" */;
-			buildPhases = (
-				E65286FD23F37CAF000EA112 /* Sources */,
-				E65286FE23F37CAF000EA112 /* Frameworks */,
-				E65286FF23F37CAF000EA112 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E652870423F37CAF000EA112 /* PBXTargetDependency */,
-				E652870623F37CAF000EA112 /* PBXTargetDependency */,
-			);
-			name = libsqlite3.dylibTests;
-			productName = libsqlite3.dylibTests;
-			productReference = E652870123F37CAF000EA112 /* libsqlite3.dylibTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		E6C3A2A923F3217000C040D2 /* polTalk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6C3A2D223F3217100C040D2 /* Build configuration list for PBXNativeTarget "polTalk" */;
@@ -279,12 +147,10 @@
 				E6C3A2A623F3217000C040D2 /* Sources */,
 				E6C3A2A723F3217000C040D2 /* Frameworks */,
 				E6C3A2A823F3217000C040D2 /* Resources */,
-				E652871323F37CAF000EA112 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E652870D23F37CAF000EA112 /* PBXTargetDependency */,
 			);
 			name = polTalk;
 			productName = polTalk;
@@ -337,13 +203,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Xor;
 				TargetAttributes = {
-					E65286F823F37CAF000EA112 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
-					E652870023F37CAF000EA112 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = E6C3A2A923F3217000C040D2;
-					};
 					E6C3A2A923F3217000C040D2 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -373,27 +232,11 @@
 				E6C3A2A923F3217000C040D2 /* polTalk */,
 				E6C3A2BD23F3217100C040D2 /* polTalkTests */,
 				E6C3A2C823F3217100C040D2 /* polTalkUITests */,
-				E65286F823F37CAF000EA112 /* libsqlite3.dylib */,
-				E652870023F37CAF000EA112 /* libsqlite3.dylibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E65286F723F37CAF000EA112 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E65286FF23F37CAF000EA112 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6C3A2A823F3217000C040D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,21 +266,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E65286F523F37CAF000EA112 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E65286FD23F37CAF000EA112 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E652870923F37CAF000EA112 /* libsqlite3_dylibTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6C3A2A623F3217000C040D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,21 +296,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E652870423F37CAF000EA112 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E65286F823F37CAF000EA112 /* libsqlite3.dylib */;
-			targetProxy = E652870323F37CAF000EA112 /* PBXContainerItemProxy */;
-		};
-		E652870623F37CAF000EA112 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E6C3A2A923F3217000C040D2 /* polTalk */;
-			targetProxy = E652870523F37CAF000EA112 /* PBXContainerItemProxy */;
-		};
-		E652870D23F37CAF000EA112 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E65286F823F37CAF000EA112 /* libsqlite3.dylib */;
-			targetProxy = E652870C23F37CAF000EA112 /* PBXContainerItemProxy */;
-		};
 		E6C3A2C023F3217100C040D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E6C3A2A923F3217000C040D2 /* polTalk */;
@@ -515,102 +328,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E652871123F37CAF000EA112 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YB87SQFVAD;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = libsqlite3.dylib/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Xor.libsqlite3-dylib";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E652871223F37CAF000EA112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YB87SQFVAD;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = libsqlite3.dylib/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Xor.libsqlite3-dylib";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E652871523F37CAF000EA112 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = libsqlite3.dylibTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Xor.libsqlite3-dylibTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polTalk.app/polTalk";
-			};
-			name = Debug;
-		};
-		E652871623F37CAF000EA112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = libsqlite3.dylibTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Xor.libsqlite3-dylibTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polTalk.app/polTalk";
-			};
-			name = Release;
-		};
 		E6C3A2D023F3217100C040D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -846,24 +563,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E652871023F37CAF000EA112 /* Build configuration list for PBXNativeTarget "libsqlite3.dylib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E652871123F37CAF000EA112 /* Debug */,
-				E652871223F37CAF000EA112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E652871423F37CAF000EA112 /* Build configuration list for PBXNativeTarget "libsqlite3.dylibTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E652871523F37CAF000EA112 /* Debug */,
-				E652871623F37CAF000EA112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E6C3A2A523F3217000C040D2 /* Build configuration list for PBXProject "polTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
