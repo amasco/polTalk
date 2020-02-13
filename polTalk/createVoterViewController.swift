@@ -17,13 +17,13 @@ class createVoterViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet weak var partyTextField: UITextField!
     @IBOutlet weak var stateTextField: UITextField!
     
-    //test label to prove if getting text from field works
-    @IBOutlet weak var firstNameLabel: UILabel!
     
     
     @IBAction func getVal () {
         let firstName: String = firstNameTextField.text!
-        //set label equal to first name
-        firstNameLabel.text = "\(firstName)"
+        let lastName: String = lastNameTextField.text!
+        let age: String = ageTextField.text!
+        let party: String = partyTextField.text!
+        let state: String = stateTextField.text!
     }
 }

@@ -131,13 +131,6 @@
                                     <action selector="getVal" destination="dlp-vj-IRJ" eventType="touchUpInside" id="svQ-V6-Vos"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-wS-FAW">
-                                <rect key="frame" x="118" y="460" width="140" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="j0x-Og-hNg"/>
@@ -145,7 +138,6 @@
                     <navigationItem key="navigationItem" id="rBw-kW-Tfa"/>
                     <connections>
                         <outlet property="ageTextField" destination="Bxx-3N-aID" id="Ynm-nV-YoO"/>
-                        <outlet property="firstNameLabel" destination="0CZ-wS-FAW" id="hbg-DU-rsN"/>
                         <outlet property="firstNameTextField" destination="GCd-fP-ufQ" id="Glm-k5-R4C"/>
                         <outlet property="lastNameTextField" destination="5UK-JI-2bS" id="u7Z-mc-MTh"/>
                         <outlet property="partyTextField" destination="g0M-zJ-rvx" id="Zgt-Ex-G8s"/>
