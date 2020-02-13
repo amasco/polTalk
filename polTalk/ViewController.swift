@@ -8,8 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
 
+
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var firstNameOutlet: UITextField!
+
+    @IBAction func submit(_ sender: UIButton)
+    {
+      if firstNameOutlet.text?.isEmpty == False
+      {
+         print(firstNameOutlet.text);
+      }
+    }
 }
 
