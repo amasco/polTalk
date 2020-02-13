@@ -12,5 +12,10 @@ import UIKit
 
 class ViewController: UIViewController{
     
+    @IBOutlet weak var createVoterButton: UIButton!
+
+    @IBOutlet weak var selectVoterButton: UIButton!
+    
+
 }
 
