@@ -2,7 +2,7 @@
 //  Voter.swift
 //  polTalk
 //
-//  Voter class object
+//  Model to store a database record
 //
 //  Created by Adrian Mascorro on 2/12/20.
 //  Copyright © 2020 Xor. All rights reserved.

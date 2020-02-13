@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class createVoterViewController: UIViewController, UITextFieldDelegate{
 
    
@@ -25,5 +26,13 @@ class createVoterViewController: UIViewController, UITextFieldDelegate{
         let age: String = ageTextField.text!
         let party: String = partyTextField.text!
         let state: String = stateTextField.text!
+        
+        
     }
+    
+    //path to database
+    var databasePath = String()
+
+    
+    
 }

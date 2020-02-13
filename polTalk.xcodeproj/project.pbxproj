@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E64C4CFB23F5D0CC00A4A70A /* createVoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */; };
 		E64C4CFD23F5D64100A4A70A /* selectVoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFC23F5D64100A4A70A /* selectVoterViewController.swift */; };
+		E64C4CFF23F5E71900A4A70A /* dbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFE23F5E71900A4A70A /* dbManager.swift */; };
 		E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E65286F223F34F8F000EA112 /* AppIcon.appiconset */; };
 		E652871A23F4936C000EA112 /* Voter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871923F4936C000EA112 /* Voter.swift */; };
 		E652871E23F49AFD000EA112 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871D23F49AFD000EA112 /* DB.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createVoterViewController.swift; sourceTree = "<group>"; };
 		E64C4CFC23F5D64100A4A70A /* selectVoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectVoterViewController.swift; sourceTree = "<group>"; };
+		E64C4CFE23F5E71900A4A70A /* dbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbManager.swift; sourceTree = "<group>"; };
 		E65286F223F34F8F000EA112 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/ios/AppIcon.appiconset; sourceTree = "<group>"; };
 		E652871923F4936C000EA112 /* Voter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voter.swift; sourceTree = "<group>"; };
 		E652871D23F49AFD000EA112 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				E6C3A2DB23F34C3000C040D2 /* Images.xcassets */,
 				E652871923F4936C000EA112 /* Voter.swift */,
 				E652871D23F49AFD000EA112 /* DB.swift */,
+				E64C4CFE23F5E71900A4A70A /* dbManager.swift */,
 			);
 			path = polTalk;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */,
 				E64C4CFB23F5D0CC00A4A70A /* createVoterViewController.swift in Sources */,
 				E64C4CFD23F5D64100A4A70A /* selectVoterViewController.swift in Sources */,
+				E64C4CFF23F5E71900A4A70A /* dbManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
