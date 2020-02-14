@@ -13,6 +13,7 @@
 		E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E65286F223F34F8F000EA112 /* AppIcon.appiconset */; };
 		E652871A23F4936C000EA112 /* Voter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871923F4936C000EA112 /* Voter.swift */; };
 		E652871E23F49AFD000EA112 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871D23F49AFD000EA112 /* DB.swift */; };
+		E683C18723F67B630034DA2B /* fmdb-master in Resources */ = {isa = PBXBuildFile; fileRef = E683C18623F67B630034DA2B /* fmdb-master */; };
 		E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */; };
 		E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AF23F3217000C040D2 /* ViewController.swift */; };
 		E6C3A2B323F3217000C040D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B123F3217000C040D2 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		E65286F223F34F8F000EA112 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/ios/AppIcon.appiconset; sourceTree = "<group>"; };
 		E652871923F4936C000EA112 /* Voter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voter.swift; sourceTree = "<group>"; };
 		E652871D23F49AFD000EA112 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		E683C18623F67B630034DA2B /* fmdb-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fmdb-master"; path = "../../../fmdb-master"; sourceTree = "<group>"; };
 		E6C3A2AA23F3217000C040D2 /* polTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6C3A2AF23F3217000C040D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		E6C3A2A123F3217000C040D2 = {
 			isa = PBXGroup;
 			children = (
+				E683C18623F67B630034DA2B /* fmdb-master */,
 				E6C3A2AC23F3217000C040D2 /* polTalk */,
 				E6C3A2C123F3217100C040D2 /* polTalkTests */,
 				E6C3A2CC23F3217100C040D2 /* polTalkUITests */,
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C3A2B823F3217100C040D2 /* LaunchScreen.storyboard in Resources */,
+				E683C18723F67B630034DA2B /* fmdb-master in Resources */,
 				E6C3A2DC23F34C3000C040D2 /* Images.xcassets in Resources */,
 				E6C3A2B523F3217100C040D2 /* Assets.xcassets in Resources */,
 				E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */,
