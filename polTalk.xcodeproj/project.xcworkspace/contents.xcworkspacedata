@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:polTalk.xcodeproj">
+      location = "group:../../../../Documents/fmdb-master 9.55.58 AM/src/fmdb">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

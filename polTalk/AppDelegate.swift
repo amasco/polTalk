@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GRDB
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

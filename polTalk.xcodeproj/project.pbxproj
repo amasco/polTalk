@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		E64C4CFB23F5D0CC00A4A70A /* createVoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */; };
 		E64C4CFD23F5D64100A4A70A /* selectVoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFC23F5D64100A4A70A /* selectVoterViewController.swift */; };
-		E64C4CFF23F5E71900A4A70A /* dbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C4CFE23F5E71900A4A70A /* dbManager.swift */; };
 		E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E65286F223F34F8F000EA112 /* AppIcon.appiconset */; };
 		E652871A23F4936C000EA112 /* Voter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871923F4936C000EA112 /* Voter.swift */; };
-		E652871E23F49AFD000EA112 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E652871D23F49AFD000EA112 /* DB.swift */; };
-		E683C18723F67B630034DA2B /* fmdb-master in Resources */ = {isa = PBXBuildFile; fileRef = E683C18623F67B630034DA2B /* fmdb-master */; };
+		E6A4228B23F72803003D2829 /* VoterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4228A23F72803003D2829 /* VoterInfo.swift */; };
+		E6B8312823F73FE800BD6C08 /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8311D23F73E4D00BD6C08 /* GRDB.framework */; };
+		E6B8312923F73FE800BD6C08 /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8311D23F73E4D00BD6C08 /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */; };
 		E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AF23F3217000C040D2 /* ViewController.swift */; };
 		E6C3A2B323F3217000C040D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B123F3217000C040D2 /* Main.storyboard */; };
@@ -25,6 +25,69 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E6B8311623F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC3773F319C8CBB3004FCF85;
+			remoteInfo = GRDBOSX;
+		};
+		E6B8311823F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56E5D7F91B4D422D00430942;
+			remoteInfo = GRDBOSXTests;
+		};
+		E6B8311A23F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56553C181C3E906C00522B5C;
+			remoteInfo = GRDBOSXCrashTests;
+		};
+		E6B8311C23F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56E5D7CA1B4D3FED00430942;
+			remoteInfo = GRDBiOS;
+		};
+		E6B8311E23F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56E5D7D31B4D3FEE00430942;
+			remoteInfo = GRDBiOSTests;
+		};
+		E6B8312023F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 565490A01D5A4798005622CB;
+			remoteInfo = GRDBWatchOS;
+		};
+		E6B8312223F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAA4DCFE230F1E0600C74B15;
+			remoteInfo = GRDBtvOS;
+		};
+		E6B8312423F73E4D00BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAA4DDD4230F262000C74B15;
+			remoteInfo = GRDBtvOSTests;
+		};
+		E6B8312623F73F4800BD6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E5D7C91B4D3FED00430942;
+			remoteInfo = GRDBiOS;
+		};
 		E6C3A2BF23F3217100C040D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E6C3A2A223F3217000C040D2 /* Project object */;
@@ -41,14 +104,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E6B8312A23F73FE800BD6C08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6B8312923F73FE800BD6C08 /* GRDB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createVoterViewController.swift; sourceTree = "<group>"; };
 		E64C4CFC23F5D64100A4A70A /* selectVoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectVoterViewController.swift; sourceTree = "<group>"; };
-		E64C4CFE23F5E71900A4A70A /* dbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbManager.swift; sourceTree = "<group>"; };
 		E65286F223F34F8F000EA112 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../../Downloads/ios/AppIcon.appiconset; sourceTree = "<group>"; };
 		E652871923F4936C000EA112 /* Voter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voter.swift; sourceTree = "<group>"; };
-		E652871D23F49AFD000EA112 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
-		E683C18623F67B630034DA2B /* fmdb-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "fmdb-master"; path = "../../../fmdb-master"; sourceTree = "<group>"; };
+		E683C18923F67D740034DA2B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E683C19023F682890034DA2B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../Downloads/libsqlite3.0.dylib; sourceTree = "<group>"; };
+		E6A4228A23F72803003D2829 /* VoterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterInfo.swift; sourceTree = "<group>"; };
+		E6A4228F23F729A5003D2829 /* voter_table.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = voter_table.sqlite; sourceTree = "<group>"; };
+		E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GRDB.xcodeproj; path = "../../../Downloads/GRDB.swift-4.9.0/GRDB.xcodeproj"; sourceTree = "<group>"; };
 		E6C3A2AA23F3217000C040D2 /* polTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6C3A2AF23F3217000C040D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B8312823F73FE800BD6C08 /* GRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,14 +170,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E683C18823F67D730034DA2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E683C19023F682890034DA2B /* libsqlite3.0.dylib */,
+				E683C18923F67D740034DA2B /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A4228E23F72998003D2829 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6A4228F23F729A5003D2829 /* voter_table.sqlite */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6B8310C23F73E4C00BD6C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B8311723F73E4D00BD6C08 /* GRDB.framework */,
+				E6B8311923F73E4D00BD6C08 /* GRDBOSXTests.xctest */,
+				E6B8311B23F73E4D00BD6C08 /* GRDBOSXCrashTests.xctest */,
+				E6B8311D23F73E4D00BD6C08 /* GRDB.framework */,
+				E6B8311F23F73E4D00BD6C08 /* GRDBiOSTests.xctest */,
+				E6B8312123F73E4D00BD6C08 /* GRDB.framework */,
+				E6B8312323F73E4D00BD6C08 /* GRDB.framework */,
+				E6B8312523F73E4D00BD6C08 /* GRDBtvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E6C3A2A123F3217000C040D2 = {
 			isa = PBXGroup;
 			children = (
-				E683C18623F67B630034DA2B /* fmdb-master */,
+				E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */,
+				E6A4228E23F72998003D2829 /* Model */,
 				E6C3A2AC23F3217000C040D2 /* polTalk */,
 				E6C3A2C123F3217100C040D2 /* polTalkTests */,
 				E6C3A2CC23F3217100C040D2 /* polTalkUITests */,
 				E6C3A2AB23F3217000C040D2 /* Products */,
+				E683C18823F67D730034DA2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +228,7 @@
 		E6C3A2AC23F3217000C040D2 /* polTalk */ = {
 			isa = PBXGroup;
 			children = (
+				E6A4228A23F72803003D2829 /* VoterInfo.swift */,
 				E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */,
 				E6C3A2AF23F3217000C040D2 /* ViewController.swift */,
 				E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */,
@@ -125,8 +240,6 @@
 				E6C3A2B923F3217100C040D2 /* Info.plist */,
 				E6C3A2DB23F34C3000C040D2 /* Images.xcassets */,
 				E652871923F4936C000EA112 /* Voter.swift */,
-				E652871D23F49AFD000EA112 /* DB.swift */,
-				E64C4CFE23F5E71900A4A70A /* dbManager.swift */,
 			);
 			path = polTalk;
 			sourceTree = "<group>";
@@ -159,10 +272,12 @@
 				E6C3A2A623F3217000C040D2 /* Sources */,
 				E6C3A2A723F3217000C040D2 /* Frameworks */,
 				E6C3A2A823F3217000C040D2 /* Resources */,
+				E6B8312A23F73FE800BD6C08 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E6B8312723F73F4800BD6C08 /* PBXTargetDependency */,
 			);
 			name = polTalk;
 			productName = polTalk;
@@ -239,6 +354,12 @@
 			mainGroup = E6C3A2A123F3217000C040D2;
 			productRefGroup = E6C3A2AB23F3217000C040D2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E6B8310C23F73E4C00BD6C08 /* Products */;
+					ProjectRef = E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E6C3A2A923F3217000C040D2 /* polTalk */,
@@ -248,13 +369,71 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E6B8311723F73E4D00BD6C08 /* GRDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GRDB.framework;
+			remoteRef = E6B8311623F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8311923F73E4D00BD6C08 /* GRDBOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GRDBOSXTests.xctest;
+			remoteRef = E6B8311823F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8311B23F73E4D00BD6C08 /* GRDBOSXCrashTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GRDBOSXCrashTests.xctest;
+			remoteRef = E6B8311A23F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8311D23F73E4D00BD6C08 /* GRDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GRDB.framework;
+			remoteRef = E6B8311C23F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8311F23F73E4D00BD6C08 /* GRDBiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GRDBiOSTests.xctest;
+			remoteRef = E6B8311E23F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8312123F73E4D00BD6C08 /* GRDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GRDB.framework;
+			remoteRef = E6B8312023F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8312323F73E4D00BD6C08 /* GRDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GRDB.framework;
+			remoteRef = E6B8312223F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E6B8312523F73E4D00BD6C08 /* GRDBtvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GRDBtvOSTests.xctest;
+			remoteRef = E6B8312423F73E4D00BD6C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E6C3A2A823F3217000C040D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6C3A2B823F3217100C040D2 /* LaunchScreen.storyboard in Resources */,
-				E683C18723F67B630034DA2B /* fmdb-master in Resources */,
 				E6C3A2DC23F34C3000C040D2 /* Images.xcassets in Resources */,
 				E6C3A2B523F3217100C040D2 /* Assets.xcassets in Resources */,
 				E65286F323F34F8F000EA112 /* AppIcon.appiconset in Resources */,
@@ -284,12 +463,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E652871A23F4936C000EA112 /* Voter.swift in Sources */,
-				E652871E23F49AFD000EA112 /* DB.swift in Sources */,
 				E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */,
 				E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */,
 				E64C4CFB23F5D0CC00A4A70A /* createVoterViewController.swift in Sources */,
 				E64C4CFD23F5D64100A4A70A /* selectVoterViewController.swift in Sources */,
-				E64C4CFF23F5E71900A4A70A /* dbManager.swift in Sources */,
+				E6A4228B23F72803003D2829 /* VoterInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +490,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E6B8312723F73F4800BD6C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRDBiOS;
+			targetProxy = E6B8312623F73F4800BD6C08 /* PBXContainerItemProxy */;
+		};
 		E6C3A2C023F3217100C040D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E6C3A2A923F3217000C040D2 /* polTalk */;
@@ -401,6 +584,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -455,6 +640,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -468,12 +655,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB87SQFVAD;
 				INFOPLIST_FILE = polTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/polTalk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -487,12 +680,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB87SQFVAD;
 				INFOPLIST_FILE = polTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/polTalk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Xor.polTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
