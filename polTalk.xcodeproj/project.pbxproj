@@ -14,6 +14,7 @@
 		E6A4228B23F72803003D2829 /* VoterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4228A23F72803003D2829 /* VoterInfo.swift */; };
 		E6B8312823F73FE800BD6C08 /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8311D23F73E4D00BD6C08 /* GRDB.framework */; };
 		E6B8312923F73FE800BD6C08 /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6B8311D23F73E4D00BD6C08 /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E6B8312C23F7493E00BD6C08 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B8312B23F7493E00BD6C08 /* AppDatabase.swift */; };
 		E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */; };
 		E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3A2AF23F3217000C040D2 /* ViewController.swift */; };
 		E6C3A2B323F3217000C040D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3A2B123F3217000C040D2 /* Main.storyboard */; };
@@ -128,6 +129,7 @@
 		E6A4228A23F72803003D2829 /* VoterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterInfo.swift; sourceTree = "<group>"; };
 		E6A4228F23F729A5003D2829 /* voter_table.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = voter_table.sqlite; sourceTree = "<group>"; };
 		E6B8310B23F73E4C00BD6C08 /* GRDB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GRDB.xcodeproj; path = "../../../Downloads/GRDB.swift-4.9.0/GRDB.xcodeproj"; sourceTree = "<group>"; };
+		E6B8312B23F7493E00BD6C08 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		E6C3A2AA23F3217000C040D2 /* polTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6C3A2AF23F3217000C040D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 			children = (
 				E6A4228A23F72803003D2829 /* VoterInfo.swift */,
 				E6C3A2AD23F3217000C040D2 /* AppDelegate.swift */,
+				E6B8312B23F7493E00BD6C08 /* AppDatabase.swift */,
 				E6C3A2AF23F3217000C040D2 /* ViewController.swift */,
 				E64C4CFA23F5D0CC00A4A70A /* createVoterViewController.swift */,
 				E64C4CFC23F5D64100A4A70A /* selectVoterViewController.swift */,
@@ -465,6 +468,7 @@
 				E652871A23F4936C000EA112 /* Voter.swift in Sources */,
 				E6C3A2B023F3217000C040D2 /* ViewController.swift in Sources */,
 				E6C3A2AE23F3217000C040D2 /* AppDelegate.swift in Sources */,
+				E6B8312C23F7493E00BD6C08 /* AppDatabase.swift in Sources */,
 				E64C4CFB23F5D0CC00A4A70A /* createVoterViewController.swift in Sources */,
 				E64C4CFD23F5D64100A4A70A /* selectVoterViewController.swift in Sources */,
 				E6A4228B23F72803003D2829 /* VoterInfo.swift in Sources */,
