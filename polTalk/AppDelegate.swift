@@ -18,17 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //setup database
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         try! setupDatabase(application)
-        
         return true
     }
     
     private func setupDatabase(_ application: UIApplication) throws {
         let databaseURL = try FileManager.default
             .url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-            .appendingPathComponent("voter_table.sqlite")
+            .appendingPathComponent("db.sqlite")
         dbQueue = try AppDatabase.openDatabase(atPath: databaseURL.path)
         
         // Be a nice iOS citizen, and don't consume too much memory
