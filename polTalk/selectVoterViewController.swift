@@ -13,23 +13,6 @@ class selectVoterViewController: UIViewController {
 
     
     @IBAction func showTable(){
-    
-    func readData(atPath path: String) throws -> DatabaseQueue{
-    let dbQueue = try DatabaseQueue(path: path)
-    
-    try dbQueue.read{ db in
-        if let row = try Row.fetchOne(db, sql: "SELECT * FROM voter WHERE state = 'California'"){
-        let first_name: String = row["first_name"]
-        let last_name: String = row["last_name"]
-        let age: Int = row["age"]
-        let party: String = row["party"]
-        let state: String = row["state"]
-        let id: Int = row["id"]
-        
-        print(first_name, last_name, age, party, state, id)
-       }
+        print("Java sucks")
     }
-    return dbQueue
-    }
-}
 }

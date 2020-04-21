@@ -22,11 +22,15 @@ struct AppDatabase {
             try db.execute(sql: "INSERT INTO voter (first_name, last_name, age, state, party)"
                                 + " VALUES (?, ?, ?, ?, ?)", arguments: ["Adrian", "Mascorro", 26, "Texas", "Independent"])
             try db.execute(sql: "INSERT INTO voter (first_name, last_name, age, state, party)"
-                                + " VALUES (?, ?, ?, ?, ?)", arguments: ["Ursula", "Gutierrez", 36, "Nevada", "Green Party"])
+                                + " VALUES (?, ?, ?, ?, ?)", arguments: ["Ursula", "Gutierrez", 21, "Nevada", "Green Party"])
+            try db.execute(sql: "INSERT INTO voter (first_name, last_name, age, state, party)"
+                                + " VALUES (?, ?, ?, ?, ?)", arguments: ["Lilah", "Sanchez", 36, "Iowa", "Democrat"])
+            try db.execute(sql: "INSERT INTO voter (first_name, last_name, age, state, party)"
+                                + " VALUES (?, ?, ?, ?, ?)", arguments: ["Serena", "Washington", 29, "Texas", "Democrat"])
         }
         
         try dbQueue.read{ db in
-            if let row = try Row.fetchOne(db, sql: "SELECT * FROM voter WHERE state = 'California'"){
+            if let row = try Row.fetchOne(db, sql: "SELECT * FROM voter WHERE state = 'Texas' AND age > 26"){
                 let first_name: String = row["first_name"]
                 let last_name: String = row["last_name"]
                 let age: Int = row["age"]
@@ -37,9 +41,40 @@ struct AppDatabase {
                 print(first_name, last_name, age, party, state, id)
                 
             }
+            if let row = try Row.fetchOne(db, sql: "SELECT * FROM voter WHERE state = 'Nevada'"){
+                let first_name: String = row["first_name"]
+                let last_name: String = row["last_name"]
+                let age: Int = row["age"]
+                let party: String = row["party"]
+                let state: String = row["state"]
+                let id: Int = row["id"]
+                
+                print(first_name, last_name, age, party, state, id)
+                
+            }
+            if let row = try Row.fetchOne(db, sql: "SELECT * FROM voter WHERE state = 'Iowa'"){
+                let first_name: String = row["first_name"]
+                let last_name: String = row["last_name"]
+                let age: Int = row["age"]
+                let party: String = row["party"]
+                let state: String = row["state"]
+                let id: Int = row["id"]
+                
+                print(first_name, last_name, age, party, state, id)
+                
+            }
+            
+            
         }
         
-        
+        //prints entire database
+        let rows = try dbQueue.read { db in
+            try Row.fetchAll(db, sql: "SELECT age FROM voter")
+        }
+        for i in rows{
+            print(i)
+        }
+        let request = db.all()
         
         try migrator.migrate(dbQueue)
         
@@ -50,7 +85,6 @@ struct AppDatabase {
         ///
         /// See https://github.com/groue/GRDB.swift/blob/master/README.md#migrations
         static var migrator: DatabaseMigrator {
-            print("in migrator")
             var migrator = DatabaseMigrator()
             
             migrator.registerMigration("createVoter") { db in

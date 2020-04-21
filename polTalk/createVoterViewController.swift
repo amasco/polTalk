@@ -31,7 +31,8 @@ class createVoterViewController: UIViewController, UITextFieldDelegate{
         age = ageTextField.text!
         party = partyTextField.text!
         state = stateTextField.text!
-        //print(firstName, "state is", state)
+        print(firstName, "state is", state)
+        
     }
     
     func printVal() {
@@ -40,7 +41,6 @@ class createVoterViewController: UIViewController, UITextFieldDelegate{
     }
     
     //Need to get values from getVal and insert them into database
-    
    func recordData(atPath path: String) throws -> DatabaseQueue{
     let dbQueue = try DatabaseQueue(path: path)
     
